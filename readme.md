@@ -13,21 +13,27 @@ pyEmbyUpdate is a update helper for Emby.
 
 ## Installation 🛠
 
-1. **Clone the Repository:**
+1. **Install Python:**
+
+    ```bash
+    apt-get -y install python3 python3-pip
+    ```
+
+2. **Clone the Repository:**
 
     ```bash
     git clone https://github.com/PatriotM/pyEmbyUpdate.git
     cd pyEmbyUpdate
     ```
 
-2. **Create and Activate a Virtual Environment:**
+3. **Create and Activate a Virtual Environment:**
 
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
 
     ```bash
     pip install -r requirements.txt
