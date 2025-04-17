@@ -16,7 +16,7 @@ pyEmbyUpdate is a update helper for Emby.
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/pyEmbyUpdate.git
+    git clone https://github.com/PatriotM/pyEmbyUpdate.git
     cd pyEmbyUpdate
     ```
 
