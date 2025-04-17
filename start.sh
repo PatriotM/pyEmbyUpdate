@@ -16,7 +16,7 @@ MAIN_SCRIPT="main.py"
 log() {
     echo "($(date '+%Y-%m-%d')|$(date '+%H:%M:%S')) [$1]: $2"
 }
-echo "ok"
+
 # Function to check if a command exists
 command_exists() {
     command -v "$1" >/dev/null 2>&1
