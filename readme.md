@@ -35,7 +35,8 @@ pyEmbyUpdate is a update helper for Emby.
 
   ```bash
 Usage ▶️
-Run the tool using the comand
-python main.py --debug
+Run the tool using the comand (the advantage of start.sh is that it starts and stops the virtual environment after running the python application)
+cd /home/pyEmbyUpdate
+./start.sh --debug
 ```
 
