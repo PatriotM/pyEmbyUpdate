@@ -7,6 +7,10 @@ import argparse
 import logging
 import json
 
+def parse_version(version_string):
+    """Konvertiert einen Versions-String in ein Tupel von Integers."""
+    return tuple(map(int, version_string.split('.')))
+
 def setup_logging(debug_mode):
     """Konfiguriert das Logging."""
     level = logging.DEBUG if debug_mode else logging.INFO
@@ -161,7 +165,7 @@ def main():
     logger.info(f"Neueste verfügbare Beta-Version: {latest_version}")
     
     # Vergleiche Versionen
-    if installed_version >= latest_version:
+    if parse_version(installed_version) >= parse_version(latest_version):
         logger.info("Die installierte Version ist aktuell. Kein Update erforderlich.")
         return
     
